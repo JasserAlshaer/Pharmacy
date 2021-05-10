@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">p2</string>
+    <string name="open">Open Navigation Bar</string>
+    <string name="close">close Navigation Bar</string>
+</resources>

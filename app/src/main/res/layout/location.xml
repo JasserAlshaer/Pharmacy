@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_245sdp"
+    android:layout_height="@dimen/_280sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup"
+    android:padding="@dimen/_7sdp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/locationanim"
+        android:layout_width="185dp"
+        android:layout_height="144dp"
+        android:layout_marginBottom="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/location" />
+
+    <ImageView
+        android:id="@+id/close1"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/ic_close" />
+
+    <Spinner
+        android:id="@+id/location"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="44dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:autofillHints="Please select a place "
+        android:padding="@dimen/_2sdp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationanim"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gradiant"
+        android:fontFamily="@font/fjalla_one"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_10sdp"
+        android:text="Ok"
+        android:textColor="#fff"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

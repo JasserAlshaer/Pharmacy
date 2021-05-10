@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    android:gravity="bottom"
+    android:padding="@dimen/_15sdp"
+    android:orientation="vertical"
+    android:background="#DCF8E7">
+
+    <ImageView
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:src="@drawable/nav_image"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:text="DOSE Company"
+        android:textColor="#4A4A4A"
+        android:fontFamily="@font/fjalla_one"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_15sdp"
+        android:text="Pharmacies Services"
+        android:textColor="#FF4A4A4A"
+        android:fontFamily="@font/fjalla_one"/>
+</LinearLayout>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1010922917595",
+    "firebase_url": "https://project-40104-default-rtdb.firebaseio.com",
+    "project_id": "project-40104",
+    "storage_bucket": "project-40104.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010922917595:android:338f572f788dfa4ef846fe",
+        "android_client_info": {
+          "package_name": "com.meme.medicine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5i4FZH_MfOR4Q8M6eXa8jJk0v19jZq5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010922917595:android:56de9fc57821bc51f846fe",
+        "android_client_info": {
+          "package_name": "com.meme.p2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5i4FZH_MfOR4Q8M6eXa8jJk0v19jZq5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010922917595:android:c060cfc5165739b1f846fe",
+        "android_client_info": {
+          "package_name": "com.meme.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5i4FZH_MfOR4Q8M6eXa8jJk0v19jZq5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010922917595-jfcve3mmnl0cgia824lj6n2sh3mq0be6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
